@@ -1,61 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Bootstrap Example</title>
+  <title>Tapzo UI test</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- BOOTSTRAP CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- CUSTOM CSS -->
   <link rel="stylesheet" href="css/index.css">
+  <!-- ANIMATE CSS -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- GOOGLE FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+  <!-- OTHER LINKS AND SCRIPTS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-
-<div class="container">
-  <img src="images/logo.jpg" class="img-responsive" alt="Tapzo" />  
-
-  <div class="row text-center car-pad">
-    <div class="car-icon">
-      <img src="images/Cab-icon.png" class="img-responsive car-class">
+  <div class="container">
+    <!-- HEADER LOGO -->
+    <img src="images/logo.jpg" class="img-responsive wow bounceInDown" alt="Tapzo" />
+    <!-- CAB RIDES -->
+    <div class="row text-center car-pad">
+      <div class="car-icon wow bounceIn">
+        <img src="images/Cab-icon.png" class="img-responsive car-class">
+      </div>
+      <div class="car-text">
+        <h3 class="car-headline">7% cashback on <br class="visible-xs no-xs" /> cab rides</h3>
+        <h6 class="car-sub-head">Valid on both Ola and Uber</h6>
+      </div>
     </div>
-    <div class="car-text">
-      <h3 class="car-headline">7% cashback on <br class="visible-xs no-xs" /> cab rides</h3>
-      <h6 class="car-sub-head">Valid on both Ola and Uber</h6>
+    <!-- FOOD ORDERS -->
+    <div class="row text-center car-pad">
+      <div class="car-icon wow bounceIn">
+        <img src="images/food_icon.png" class="img-responsive car-class">
+      </div>
+      <div class="car-text">
+        <h3 class="car-headline">Free delivery on all food orders</h3>
+        <h6 class="car-sub-head">Valid on Swiggy, zomato &  others</h6>
+      </div>
     </div>
-  </div> 
-
-  <div class="row text-center car-pad">
-    <div class="car-icon">
-      <img src="images/food_icon.png" class="img-responsive car-class">
+    <!-- SPULL PREMIUM -->
+    <div class="row text-center car-pad">
+      <div class="car-icon sp wow bounceIn">
+        <img src="images/Sq.png" class="img-responsive car-class">
+      </div>
+      <div class="car-text">
+        <h3 class="car-headline spull">upto 3 months free</h3>
+        <h6 class="car-headline headline2">spull premium  subscription</h6>
+      </div>
     </div>
-    <div class="car-text">
-      <h3 class="car-headline">Free delivery on all food orders</h3>
-      <h6 class="car-sub-head">Valid on Swiggy, zomato &  others</h6>
-    </div>
-  </div> 
-
-  <div class="row text-center car-pad">
-    <div class="car-icon sp">
-      <img src="images/Sq.png" class="img-responsive car-class">
-    </div>
-    <div class="car-text">
-      <h3 class="car-headline spull">upto 3 months free</h3>
-      <h6 class="car-headline headline2">spull premium  subscription</h6>
+    <!-- MOVIE OFFERS -->
+    <div class="row text-center car-pad">
+      <img src="images/movies.jpg" class="img-responsive wow flipInX">
+      <div class="movie movie2 wow jello">
+        <h3 class="movie-line"> 4000+ Bollywood Movies For Free.</h3>
+        <h3 class="movie-line movie-line2">Stream, Watch, Download Movies and TV Series.</h6>
     </div>
   </div>
-
-  <div class="row text-center car-pad">
-    <img src="images/movies.jpg" class="img-responsive">
-    <div class="movie movie2">
-      <h3 class="movie-line"> 4000+ Bollywood Movies For Free.</h3>
-      <h3 class="movie-line movie-line2">Stream, Watch, Download Movies and TV Series.</h6>
-    </div>
-  </div>
-
+  <!-- BULLET OFFERS -->
   <div class="text-center">
     <div class="movie">
       <div class="row">
@@ -64,174 +72,156 @@
         </div>
         <div class="col-md-8 col-xs-10" style="padding-left: 10px;">
           <h3 class="movie-line" style="float: left;"> Maximum Cashback</h3>
-        </div>
       </div>
-
-      <div class="row">
-        <div class="col-md-4 col-xs-2 offer-1" style="padding-right: 10px;">
-          <i class="material-icons">done</i>
-        </div>
-        <div class="col-md-8 col-xs-10" style="padding-left: 10px;">
-          <h3 class="movie-line" style="float: left;"> Huge Monthly Savings</h3>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-4 col-xs-2 offer-1" style="padding-right: 10px;">
-          <i class="material-icons">done</i>
-        </div>
-        <div class="col-md-8 col-xs-10" style="padding-left: 10px;">
-          <h3 class="movie-line coupon" style="float: left;"> No Coupon Code Required</h3>
-        </div>
-      </div>
-
     </div>
-  </div>   
-
+    <div class="row">
+      <div class="col-md-4 col-xs-2 offer-1" style="padding-right: 10px;"> <i class="material-icons">done</i>
+      </div>
+      <div class="col-md-8 col-xs-10" style="padding-left: 10px;">
+        <h3 class="movie-line" style="float: left;"> Huge Monthly Savings</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-xs-2 offer-1" style="padding-right: 10px;"> <i class="material-icons">done</i>
+      </div>
+      <div class="col-md-8 col-xs-10" style="padding-left: 10px;">
+        <h3 class="movie-line coupon" style="float: left;"> No Coupon Code Required</h3>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- GRADIENT LINE -->
   <div class="gradient-1"></div>
-
-  <div class="row features">
+  <!-- OTHER OFFERS LINED -->
+  <div class="row features wow zoomInRight">
     <div class="col-md-3 col-sm-3 text-center">
       <img src="images/Bus-icon.png" class="feature-icons">
     </div>
     <div class="col-md-9 col-sm-9">
       <h3 class="car-headline feat">7% cashback on cab rides</h3>
       <h6 class="car-sub-head feat2">Valid on bus bookings</h6>
-    </div>  
+    </div>
   </div>
-
   <div class="gradient-1"></div>
-
-    <div class="row features">
+  <div class="row features wow zoomInRight">
     <div class="col-md-3 col-sm-3 text-center">
       <img src="images/Hotel_icon.png" class="feature-icons">
     </div>
     <div class="col-md-9 col-sm-9">
       <h3 class="car-headline feat">10% cashback on Hotels</h3>
       <h6 class="car-sub-head feat2">Valid on both OYO and Cleartrip</h6>
-    </div>  
+    </div>
   </div>
-
   <div class="gradient-1"></div>
-
-  <div class="row features">
+  <div class="row features wow zoomInRight">
     <div class="col-md-3 col-sm-3 text-center">
       <img src="images/Prepaid-icon.jpg" class="feature-icons prepaid">
     </div>
     <div class="col-md-9 col-sm-9">
       <h3 class="car-headline feat">1% cashback on Prepaid</h3>
       <h6 class="car-sub-head feat2">Valid on all operators (except Airtel)</h6>
-    </div>  
+    </div>
   </div>
-
   <div class="gradient-1"></div>
-
-  <div class="row features">
+  <div class="row features wow zoomInRight">
     <div class="col-md-3 col-sm-3 text-center">
       <img src="images/Flight_icon.png" class="feature-icons">
     </div>
     <div class="col-md-9 col-sm-9">
       <h3 class="car-headline feat">save half convienence fee</h3>
       <h6 class="car-sub-head feat2">Valid on Cleartrip, Yatra and others</h6>
-    </div>  
+    </div>
   </div>
-
   <div class="gradient-1"></div>
-
-  <div class="row features">
+  <div class="row features wow zoomInRight">
     <div class="col-md-3 col-sm-3 text-center">
       <img src="images/Postpaid_icon.png" class="feature-icons">
     </div>
     <div class="col-md-9 col-sm-9">
       <h3 class="car-headline feat">1% cashback on Postpaid</h3>
       <h6 class="car-sub-head feat2">Valid on all operators (except Airtel)</h6>
-    </div>  
+    </div>
   </div>
-
   <div class="gradient-1"></div>
-
-  <div class="row features">
+  <div class="row features wow zoomInRight">
     <div class="col-md-3 col-sm-3 text-center">
       <img src="images/DTH-icon.png" class="feature-icons">
     </div>
     <div class="col-md-9 col-sm-9">
       <h3 class="car-headline feat">1% cashback on DTH</h3>
       <h6 class="car-sub-head feat2">Valid on all operators (except Airtel)</h6>
-    </div>  
+    </div>
   </div>
-
   <div class="gradient-1"></div>
-
-  <div class="row features">
+  <div class="row features wow zoomInRight">
     <div class="col-md-3 col-sm-3 text-center">
       <img src="images/Deals_icon.png" class="feature-icons">
     </div>
     <div class="col-md-9 col-sm-9">
       <h3 class="car-headline feat">7% cashback on all deals</h3>
       <h6 class="car-sub-head feat2">Valid on both Nearby and Little</h6>
-    </div>  
+    </div>
   </div>
-
   <div class="gradient-1"></div>
-
-  <div class="row features">
+  <div class="row features wow zoomInRight">
     <div class="col-md-3 col-sm-3 text-center">
       <img src="images/Home-Services-icon.png" class="feature-icons">
     </div>
     <div class="col-md-9 col-sm-9">
       <h3 class="car-headline feat">125 cashback on home services</h3>
       <h6 class="car-sub-head feat2">Valid on all home services</h6>
-    </div>  
+    </div>
   </div>
-
   <div class="gradient-1"></div>
-
-  <div class="row features">
+  <div class="row features wow zoomInRight">
     <div class="col-md-3 col-sm-3 text-center">
       <img src="images/Support-icon.png" class="feature-icons">
     </div>
     <div class="col-md-9 col-sm-9">
       <h3 class="car-headline feat">Priority Customer Support</h3>
       <h6 class="car-sub-head feat2">Jump the support queue</h6>
-    </div>  
+    </div>
   </div>
-
   <div class="gradient-1"></div>
-
-  <div class="row features">
+  <div class="row features wow zoomInRight">
     <div class="col-md-3 col-sm-3 text-center">
       <img src="images/Dice_icon.png" class="feature-icons">
     </div>
     <div class="col-md-9 col-sm-9">
       <h3 class="car-headline feat">win exciting prizes</h3>
       <h6 class="car-sub-head feat2">Increase chances of winning tapzo lucky contest</h6>
-    </div>  
+    </div>
   </div>
-<img src="images/foo-banner.jpg" class="img-responsive" alt="Tapzo" />
-
+  <!-- FOOTER IMAGE -->
+  <img src="images/foo-banner.jpg" class="img-responsive" alt="Tapzo" />
+  <!-- BACK TO TOP  -->
 <a id="back2Top" style="color: #000;" title="Back to top" href="#">&#10148;</a>
-
-</div>
-
-<!-- /*Scroll to top when arrow up clicked BEGIN*/ -->
-<script type="text/javascript">
-$(window).scroll(function() {
-    var height = $(window).scrollTop();
-    if (height > 100) {
-        $('#back2Top').fadeIn();
-    } else {
-        $('#back2Top').fadeOut();
-    }
-});
-$(document).ready(function() {
-    $("#back2Top").click(function(event) {
-        event.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, "slow");
-        return false;
+  </div>
+  <!-- /*Scroll to top when arrow up clicked BEGIN*/ -->
+  <script type="text/javascript">
+    $(window).scroll(function() {
+        var height = $(window).scrollTop();
+        if (height > 100) {
+            $('#back2Top').fadeIn();
+        } else {
+            $('#back2Top').fadeOut();
+        }
     });
-
-});
-</script>
-<!--  /*Scroll to top when arrow up clicked END*/ -->
+    $(document).ready(function() {
+        $("#back2Top").click(function(event) {
+            event.preventDefault();
+            $("html, body").animate({ scrollTop: 0 }, "slow");
+            return false;
+        });
+    
+    });
+  </script>
+  <!--  /*Scroll to top when arrow up clicked END*/ -->
+  <!-- WOW - ANIMATE ON SCROLL BEGINS -->
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
+
 </html>
